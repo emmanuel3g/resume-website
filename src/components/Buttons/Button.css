@@ -1,0 +1,41 @@
+
+
+.custom_btn {
+    background-color: var(--main-color) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border: 2px solid black !important; /* ✅ Ensure border is visible */
+    border-radius: 50px !important;
+    padding: 5px 16px !important;
+    line-height: 35px !important;
+    min-width: 100px !important;
+    outline: 2px solid black !important; /* ✅ Add outline */
+    outline-offset: 2px !important;
+}
+
+.custom_btn  .btn_icon_container {
+    color: #000 !important;
+    background: #fff !important;
+    border-radius: 50px !important;
+    height: 27px !important;
+    width: 27px !important;
+    line-height: 29px !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.custom_btn  .btn_icon_container > MuisvgIcon-root {
+    font-size: 16px !important;
+}
+
+
+.custom_btn  .btn_text {
+    font-size: 14px !important;
+    text-transform: none !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}
