@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
             .
             <br/>
-            Clone idea from travoline.
+            Idea from travoline.
           </Typography>
         </div>
     </div>
