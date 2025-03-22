@@ -30,7 +30,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
 
 const Profile = () => {
   // Specify the path to your resume file
-  const resumeFile = '/COPY_Emmanuel_Girmaye_resume.pdf';  // Path to the public folder file
+  const resumeFile = '/Emmanuel_Girmaye_resume_website.pdf';  // Path to the public folder file
 
   return (
     <div className="profile container_shadow">
