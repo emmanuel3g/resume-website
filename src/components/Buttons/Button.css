@@ -4,12 +4,12 @@
     background-color: var(--main-color) !important;
     font-size: 14px !important;
     font-weight: 500 !important;
-    border: 2px solid black !important; /* ✅ Ensure border is visible */
+    border: 2px solid black !important; 
     border-radius: 50px !important;
     padding: 5px 16px !important;
     line-height: 35px !important;
     min-width: 100px !important;
-    outline: 2px solid black !important; /* ✅ Add outline */
+    outline: 2px solid black !important; 
     outline-offset: 2px !important;
 }
 

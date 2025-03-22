@@ -50,13 +50,23 @@ const Header = (props) => {
           CONTACT ME
           </Nav.Link>
         </Nav>
-        <div className = 'header_right'>
-          {Object.keys(resumeData.socials).map(key => (
-            <a href= {resumeData.socials[key].Link} target='_blank'>
+        <div className="header_right">
+          {Object.keys(resumeData.socials).map((key) => (
+            <a 
+              href={resumeData.socials[key].link}  // <-- Fixed "link" (lowercase)
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="link" 
+              key={key}
+            >
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text= {'Hire me'} icon = {<LinkedIn/> }/>
+          <CustomButton 
+          text={'Hire me'} 
+          icon={<LinkedIn />} 
+          onClick={() => window.open('https://www.linkedin.com/in/emmanuel-girmaye', '_blank')}
+        />
         </div> 
       </Navbar.Collapse>
     </Navbar>

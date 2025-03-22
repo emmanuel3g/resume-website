@@ -84,18 +84,18 @@ export default {
             </ul>
           `,
         },
-        // {
-        //   title: 'Career Prep Fellow',
-        //   company: 'Management Leadership for Tomorrow (MLT)',
-        //   location: 'Minneapolis, MN',
-        //   date: 'January 2024 – Present',
-        //   description: `
-        //     <ul>
-        //       <li>Accepted into a selective 18-month professional development program for high-achieving diverse talent.</li>
-        //       <li>Completing business case studies and assignments to grow leadership and technical skills.</li>
-        //     </ul>
-        //   `,
-        // },
+        {
+          title: 'MLT Career Prep Fellow',
+          company: 'Management Leadership for Tomorrow',
+          location: 'Minneapolis, MN',
+          date: 'January 2024 – Present',
+          // description: `
+          //   <ul>
+          //     <li>Accepted into a selective 18-month professional development program for high-achieving diverse talent.</li>
+          //     <li>Completing business case studies and assignments to grow leadership and technical skills.</li>
+          //   </ul>
+          // `,
+        },
         {
           title: 'Social Media/Marketing Position',
           company: 'Ethiopian Student Association (ESA)',
